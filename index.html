@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JOGO DA VÉIA</h1>
+        
+        <!-- Área dos Perfis dos Jogadores -->
+        <div class="perfis">
+            <div class="perfil" id="perfil-x">
+                <img src="img/melidoas rsoto.png" alt="Jogador X" class="avatar">
+                <span>Meliodas</span>
+            </div>
+            <div class="vs">VS</div>
+            <div class="perfil" id="perfil-o">
+                <img src="img/guts rosto.png" alt="Jogador O" class="avatar">
+                <span>Guts</span>
+            </div>
+        </div>
+
+        <div id="mensagem" class="mensagem">Vez do Jogador X</div>
+        <div class="tabuleiro" id="tabuleiro">
+            <div class="celula" data-index="0"></div>
+            <div class="celula" data-index="1"></div>
+            <div class="celula" data-index="2"></div>
+            <div class="celula" data-index="3"></div>
+            <div class="celula" data-index="4"></div>
+            <div class="celula" data-index="5"></div>
+            <div class="celula" data-index="6"></div>
+            <div class="celula" data-index="7"></div>
+            <div class="celula" data-index="8"></div>
+        </div>
+        <button id="reiniciar">Reiniciar Jogo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<link rel="stylesheet" href="style.css">
+<script src="js/java.js"></script>
